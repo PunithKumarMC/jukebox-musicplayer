@@ -1,0 +1,2 @@
+# jukebox-musicplayer
+console project
