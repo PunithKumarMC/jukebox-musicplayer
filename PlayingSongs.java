@@ -38,7 +38,7 @@ public class PlayingSongs {
             while (rs.next()) {
                 temp = rs.getString("songpath");
                 System.out.println(temp);
-                throw new UserException("file not found");
+//                throw new UserException("file not found");
             }
             file = new File(temp);
             audioInputStream = AudioSystem.getAudioInputStream(file.getAbsoluteFile());     //doubt exception c //use try catch
